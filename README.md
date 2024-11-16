@@ -1,11 +1,12 @@
-This project is a conceptual implementation of a cookie extraction and exfiltration tool designed to explore the security risks associated with browser cookie storage and transmission. The script demonstrates how cookies can be decrypted from Google Chrome using its local encryption key and sent to a remote server via an HTTP POST request.
+## About
+This project is a conceptual implementation of a cookie extraction and exfiltration tool designed to explore the security risks associated with browser cookie storage and transmission. The script demonstrates how cookies can be decrypted from Google Chrome using its local encryption key and sent to a remote server via an HTTP POST request.  
 
-By understanding the vulnerabilities illustrated in this tool, developers and security professionals can take steps to better secure sensitive data in their applications.
+By understanding the vulnerabilities illustrated in this tool, developers and security professionals can take steps to better secure sensitive data in their applications.  
 
-How It Works
-The script accesses Chrome's cookie storage database and decrypts encrypted cookie values using the AES key stored in the browser's Local State file. Once decrypted, the cookie data is sent to a server for further processing. To facilitate testing or proof-of-concept demonstrations, a tunnel (such as Cloudflare Tunnel) can be used to expose a local server to the internet securely.
+### How It Works
+The script accesses Chrome's cookie storage database and decrypts encrypted cookie values using the AES key stored in the browser's Local State file. Once decrypted, the cookie data is sent to a server for further processing. To facilitate testing or proof-of-concept demonstrations, a tunnel (such as Cloudflare Tunnel) can be used to expose a local server to the internet securely.  
 
-Limitations and Detection
+### Limitations and Detection
 The project highlights some critical limitations and detection challenges:
 
 Antivirus software or endpoint protection tools may flag scripts like this due to their behavior (e.g., accessing browser files, sending HTTP requests).  
