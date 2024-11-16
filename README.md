@@ -8,11 +8,11 @@ The script accesses Chrome's cookie storage database and decrypts encrypted cook
 
 ### Limitations and Detection
 The project highlights some critical limitations and detection challenges:
+1. Antivirus software or endpoint protection tools may flag scripts like this due to their behavior (e.g., accessing browser files, sending HTTP requests).  
+2. Network monitoring systems can detect and block the exfiltration of sensitive data over HTTP, especially if transmitted unencrypted.  
+3. Accessing Chrome's data requires certain user permissions, and active browser processes may lock essential files, preventing extraction.
 
-Antivirus software or endpoint protection tools may flag scripts like this due to their behavior (e.g., accessing browser files, sending HTTP requests).  
-Network monitoring systems can detect and block the exfiltration of sensitive data over HTTP, especially if transmitted unencrypted.  
-Accessing Chrome's data requires certain user permissions, and active browser processes may lock essential files, preventing extraction.  
-Potential Enhancements
-While this script is designed as a straightforward proof of concept, real-world adversaries often employ techniques like enhanced obfuscation, encrypted transmission, dynamic server URLs, and multi-browser compatibility to evade detection.  
-Integrating features such as encrypted data transmission or dynamic server resolution would make the tool more resilient against monitoring systems but also emphasize the importance of secure practices to prevent misuse.  
-Added support for different types of browsers.
+### Potential Enhancements
+1. While this script is designed as a straightforward proof of concept, real-world adversaries often employ techniques like enhanced obfuscation, encrypted transmission, dynamic server URLs, and multi-browser compatibility to evade detection.  
+2. Integrating features such as encrypted data transmission or dynamic server resolution would make the tool more resilient against monitoring systems but also emphasize the importance of secure practices to prevent misuse.  
+3. Added support for different types of browsers.
