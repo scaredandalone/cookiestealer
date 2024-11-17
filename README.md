@@ -16,3 +16,7 @@ The project highlights some critical limitations and detection challenges:
 1. While this script is designed as a straightforward proof of concept, real-world adversaries often employ techniques like enhanced obfuscation, encrypted transmission, dynamic server URLs, and multi-browser compatibility to evade detection.  
 2. Integrating features such as encrypted data transmission or dynamic server resolution would make the tool more resilient against monitoring systems but also emphasize the importance of secure practices to prevent misuse.  
 3. Added support for different types of browsers.
+
+#### Disclaimer: For Educational Purposes Only  
+
+This project is intended solely for educational and research purposes to raise awareness about browser security risks, particularly regarding the storage and transmission of sensitive data such as cookies. It should not be used for any malicious activities, unauthorized access, or exploitation of vulnerabilities. Responsible security practices and ethical guidelines should always be followed when conducting security research.
